@@ -1,0 +1,114 @@
+header, footer{
+    background-color: #1f2937;
+}
+
+.secondary-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.nav-links{
+    display: flex;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+.header-logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+}
+
+.main-text{
+    font-size: 48px;
+    font-weight: bold;
+    color:#f9faf8 ;
+}
+.header-button{
+    border: 0px none;
+}
+button{
+    background-color: #3882f6 ;
+    color: #f9faf8;
+    border-radius: 8px;
+
+}
+
+.cat-photo{
+    height: 150px;
+    width: 250px;
+}
+.card-title{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bold;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.information-photo{
+    height:100px;
+    width:100px;
+    border:2px double #3882f6;
+    border-radius: 8px
+}
+
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote-text{
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-author{
+    color: #1f2937;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.action{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #e5e7eb;
+    margin: 40px 100px;
+}
+
+.action-button{
+    border: 2px solid #e5e7eb;
+}
+
+footer{
+    padding: 16px;
+    color:#e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
