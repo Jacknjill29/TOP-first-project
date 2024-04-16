@@ -20,6 +20,7 @@ ul{
 .header-logo{
     font-size: 24px;
     color: #f9faf8;
+    display: flex;
 }
 
 .top{
@@ -88,8 +89,6 @@ button{
 .quote-author{
     color: #1f2937;
     font-weight: bold;
-    display: flex;
-    justify-content: flex-end;
 }
 
 .action{
